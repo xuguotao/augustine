@@ -9,7 +9,7 @@ module.exports = {
     gitbook: '>=3.0.0-pre.0',
 
     // Use the "official" theme
-    plugins: ['comscore', 'sitemap'],
+    plugins: ['sitemap'],
 
     variables: {
         version: pkg.version
@@ -17,7 +17,7 @@ module.exports = {
 
     pluginsConfig: {
         sitemap: {
-            hostname: 'https://toolchain.gitbook.com'
+            hostname: 'http://book.5dcto.com'
         }
     }
 };
